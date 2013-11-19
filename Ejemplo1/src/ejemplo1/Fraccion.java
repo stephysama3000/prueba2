@@ -22,7 +22,7 @@ public class Fraccion {
     
     public Fraccion(int n,int d)
     {
-        numerador=n;
+        numerador=n+1;
         denominador=d ==0 ? 1 :d;
     }
     
